@@ -4,7 +4,9 @@ This Spring Boot application provides a RESTful API to calculate reward points f
 
 ## How it Works
 For every dollar spent over $100 in each transaction, the customer receives 2 points.
+
 For every dollar spent between $50 and $100, the customer receives 1 point.
+
 Transactions below $50 do not earn any points.
 
 ## Technologies Used
