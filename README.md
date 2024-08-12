@@ -8,11 +8,15 @@ For every dollar spent between $50 and $100, the customer receives 1 point.
 Transactions below $50 do not earn any points.
 
 ## Technologies Used
-Spring Boot
-Spring Tool Suite
-Maven
-Java
-H2
+Spring Boot,
+
+Spring Tool Suite,
+
+Maven,
+
+Java,
+
+H2.
 
 ## API Endpoints
 'POST /addData' - To save the data in DB for three month's trsnsaction by customer.
@@ -29,7 +33,10 @@ http://localhost:8080/getTotal/cust1?startDate=2024-05-01&endDate=2024-08-31.
 
 ## Data Model
 # CustomerTransaction
-'id': Integer
-'customerId': String
-'date': LocalDate
+'id': Integer,
+
+'customerId': String,
+
+'date': LocalDate,
+
 'amount': Long
