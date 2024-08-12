@@ -13,10 +13,18 @@ import com.test.testproject.model.CustomerTransactions;
 
 @Service
 public class RewardService {
-	
+	/**
+	 * Service class to calculate reward points for transactions.
+	 */
 	@Autowired
 	CustomerRepo repo;
 	
+	/**
+     * Calculates reward points based on the transaction amount.
+     *
+     * @param amount The amount of the transaction.
+     * @return The calculated reward points.
+     */
 	public int calculatePoints(double amount) {
 		
 		int points=0;

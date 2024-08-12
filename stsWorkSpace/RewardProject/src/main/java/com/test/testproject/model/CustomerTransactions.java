@@ -9,6 +9,9 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
+/**
+ * Model class representing a transaction.
+ */
 @Component
 @Entity
 public class CustomerTransactions {

@@ -15,6 +15,8 @@ import com.test.testproject.dao.CustomerRepo;
 import com.test.testproject.model.CustomerTransactions;
 import com.test.testproject.service.RewardService;
 
+/*** REST controller for handling reward point calculations.
+*/
 @RestController
 public class RewardController {
 	
@@ -40,6 +42,11 @@ public class RewardController {
 		  
 	  }
 	  
+	  /**
+	     * Endpoint to calculate monthly rewards for a customers.
+	     *
+	     * @return A Map containing the monthly rewards data.
+	     */
 	  @GetMapping("getMonthaly/{customerId}") 
 	  public Map<String, Integer>  calculateMonthalyRewards(@PathVariable String customerId, @RequestParam String startDate, @RequestParam String endDate ){
 	  

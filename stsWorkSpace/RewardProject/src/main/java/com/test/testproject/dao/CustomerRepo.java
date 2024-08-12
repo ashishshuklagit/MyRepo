@@ -9,6 +9,12 @@ import org.springframework.stereotype.Repository;
 
 import com.test.testproject.model.CustomerTransactions;
 
+/**
+ * @author ashish.shukla11
+ *
+ * DAO layer to interact with DB
+ */
+
 @Repository
 public interface CustomerRepo extends JpaRepository<CustomerTransactions, Integer>{
 
