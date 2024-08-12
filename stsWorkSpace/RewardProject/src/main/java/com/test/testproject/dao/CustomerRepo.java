@@ -19,6 +19,10 @@ import com.test.testproject.model.CustomerTransactions;
 public interface CustomerRepo extends JpaRepository<CustomerTransactions, Integer>{
 
 	//@Query("SELECT c FROM  CustomerTransactions WHERE c.date BETWEEN :startDate AND :endDate AND c.customerId= :customerID" )
+	/** findByfieldNameAndFieldNameBetween using JPA naming convention created this method is used to fetch data between a given time range
+	 * 
+	 * 
+	 */
 	List<CustomerTransactions> findByCustomerIdAndDateBetween(String customerId, LocalDate startDate, LocalDate endDate);
 	
 
