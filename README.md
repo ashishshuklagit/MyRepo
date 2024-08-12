@@ -1,4 +1,4 @@
-## Reward Points Calculator AP ##
+## Reward Points Calculator API ##
 # Overview #
 This Spring Boot application provides a RESTful API to calculate reward points for customers based on their transaction amounts over a three-month period.
 
