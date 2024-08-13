@@ -20,6 +20,9 @@ Java,
 
 H2.
 
+# DB
+H2 console url - http://localhost:8080/h2-console
+
 ## API Endpoints #
 'POST /addData' - To save the data in DB for three month's trsnsaction by customer.
 
